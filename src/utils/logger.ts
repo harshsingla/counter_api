@@ -1,6 +1,7 @@
 import { createLogger, format, LoggerOptions, transports } from "winston";
 const Logger = createLogger();
 const options: LoggerOptions = {
+    level: 'silly',
     format: format.combine(
         format.prettyPrint(),
         format.json()

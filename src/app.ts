@@ -10,9 +10,14 @@ import checkToken from './utils/checkToken'
 import YAML from "yamljs";
 import swaggerUi from "swagger-ui-express";
 import mongoose from "mongoose";
+import logger from "./utils/logger";
 // Controllers (route handlers)
 // import {config} from './config/settings'
-
+console.log = (...args: any[]) => logger.silly.call(logger, ...args);
+console.info = (...args: any[]) => logger.info.call(logger, ...args);
+console.warn = (...args: any[]) => logger.warn.call(logger, ...args);
+console.error = (...args: any[]) => logger.error.call(logger, ...args);
+console.debug = (...args: any[]) => logger.debug.call(logger, ...args);
 const app = express();
 const swaggerDocument = YAML.load("./swagger.yaml");
 
@@ -32,7 +37,7 @@ const swaggerDocument = YAML.load("./swagger.yaml");
     })
 );
  */
-mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true }).then(()=>{
+mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
     console.log('MongoDB Connected')
 }).catch(err => {
     console.log("MongoDB connection error. Please make sure MongoDB is running. " + err);

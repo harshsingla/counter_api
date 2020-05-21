@@ -2,7 +2,6 @@ import jwt from "jsonwebtoken";
 import { User, UserDocument } from "../models/User";
 import { errorObj, successObj, secret, ErrorObj, SuccessObj } from "../../config/settings";
 import _ from "lodash";
-import console from "../../utils/logger";
 
 let userCtrl = {
     add: (data: any) => {
