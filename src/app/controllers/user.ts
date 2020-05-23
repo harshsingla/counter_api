@@ -3,6 +3,7 @@ import { User, UserDocument } from "../models/User";
 import { errorObj, successObj, secret, ErrorObj, SuccessObj } from "../../config/settings";
 import _ from "lodash";
 
+
 let userCtrl = {
     add: (data: any) => {
         return new Promise(async (resolve) => {
