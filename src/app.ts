@@ -5,7 +5,6 @@ import path from 'path';
 import { MONGODB_URI, SESSION_SECRET } from "./utils/secrets";
 import cors from "cors";
 import userRoutes from "./app/routes/user";
-// import morgan from "morgan";
 import checkToken from './utils/checkToken'
 import YAML from "yamljs";
 import swaggerUi from "swagger-ui-express";
@@ -31,12 +30,6 @@ const swaggerDocument = YAML.load("./swagger.yaml");
 ]; */
 
 // removing static resources from the logger
-/* app.use(
-    morgan(":method :url :status :res[content-length] - :response-time ms", {
-        skip: req => rejectFolders.indexOf(req.url.split("/")[1]) !== -1
-    })
-);
- */
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
     console.log('MongoDB Connected')
 }).catch(err => {
