@@ -1,17 +1,17 @@
 import jwt from "jsonwebtoken";
 import { User, UserDocument } from "../models/User";
-import { errorObj, successObj, secret, ErrorObj, SuccessObj } from "../../config/settings";
+import { errorObj, successObj, secret, BodyData } from "../../config/settings";
 import _ from "lodash";
 
 
 let userCtrl = {
-    add: (data: any) => {
+    add: (data: BodyData) => {
         return new Promise(async (resolve) => {
-            const entity: any = new User();
+            const entity: UserDocument = new User();
             _.each(data, (value: any, key: keyof UserDocument) => {
-                entity[key] = value;
+                (entity[key] as UserDocument) = value;
             });
-            entity.save(async (err: object, doc: UserDocument) => {
+            entity.save(async (err: Error, doc: UserDocument) => {
                 if (err || !doc) {
                     return resolve({ ...errorObj, message: "Error Saving User Details" });
                 }
@@ -22,14 +22,14 @@ let userCtrl = {
     },
     update: (id: string, data: UserDocument) => {
         return new Promise(async (resolve) => {
-            User.updateOne({ _id: id }, async (err: object, doc: UserDocument) => {
+            User.updateOne({ _id: id }, async (err: Error, doc: UserDocument) => {
                 if (err || !doc) {
                     return resolve({ ...errorObj, message: "user not found" });
                 }
                 _.each(data, (value: any, key: keyof UserDocument) => {
-                    (doc[key] as any) = value;
+                    (doc[key] as UserDocument) = value;
                 });
-                doc.save(async (error: object, updatedDoc: UserDocument) => {
+                doc.save(async (error: Error, updatedDoc: UserDocument) => {
                     if (err || !updatedDoc) {
                         return resolve({ ...errorObj, message: "user not found" });
                     }
@@ -38,9 +38,9 @@ let userCtrl = {
             })
         });
     },
-    getById: (data: any) => {
+    getById: (data: BodyData) => {
         return new Promise(async (resolve) => {
-            User.findOne({ ...data }, async (err: object, doc: UserDocument) => {
+            User.findOne({ ...data }, async (err: Error, doc: UserDocument) => {
                 if (err || !doc) {
                     return resolve({ ...errorObj, message: "user not found" });
                 }
@@ -48,17 +48,17 @@ let userCtrl = {
             })
         });
     },
-    list: (data: any) => {
+    list: (data: BodyData) => {
         return new Promise(async (resolve) => {
-            User.find({ ...data }, async (err: object, docs: UserDocument[]) => {
+            User.find({ ...data }, async (err: Error, docs: UserDocument[]) => {
                 if (err) {
                     return resolve({ ...errorObj, message: "Error in fetching users" });
                 }
-                return resolve({ ...successObj, message: "users fetched successfully", data: docs });
+                return resolve({ ...successObj, message: "Users fetched successfully", data: docs });
             })
         });
     },
-    loginWithPassword: (data: any) => (new Promise((resolve) => {
+    loginWithPassword: (data: BodyData) => (new Promise((resolve) => {
         const { email, password } = data;
         const error = "wrong email or password";
         let query = User.findOne({ email })
@@ -68,17 +68,13 @@ let userCtrl = {
             user.comparePassword(password).then(({ err, isMatch }) => {
 
                 if (!isMatch) {
-                    // return false;
                     return resolve({ ...errorObj, message: "Invalid password" });
                 }
 
                 const JWTToken = jwt.sign({
                     _id: user._id,
                     email: user.email,
-                    userType: user.userType,
-                    name: user.name,
-                    mobile: user.mobile
-
+                    userType: user.userType
                 },
                     secret,
                     {
@@ -91,9 +87,7 @@ let userCtrl = {
                     user: {
                         _id: user._id,
                         email: user.email,
-                        userType: user.userType,
-                        name: user.name,
-                        mobile: user.mobile
+                        userType: user.userType
                     },
                 });
 

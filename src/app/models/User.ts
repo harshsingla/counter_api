@@ -5,7 +5,7 @@ enum Gender {
     Male, Female
 }
 enum Usertype {
-    'admin', 'user'
+    'Admin', 'Member', 'Limited', 'Guest'
 }
 type comparePasswordFunction = (candidatePassword: string) => Promise<any>;
 const comparePassword: comparePasswordFunction = function (candidatePassword) {
@@ -20,39 +20,23 @@ const comparePassword: comparePasswordFunction = function (candidatePassword) {
 
 };
 export type UserDocument = mongoose.Document & {
-    name: string;
+    fullName: string;
     email: string;
-    mobile: string;
     userType: Usertype;
     password: string;
     comparePassword: comparePasswordFunction;
-    allowNotification: boolean;
-    gender: Gender;
-    cart: string;
-    address: {
-        street: string;
-        city: string;
-        state: string;
-        pincode: string;
-    };
+    companyName: string;
+    orgId: string;
 }
 
 const userSchema = new mongoose.Schema({
-    name: String,
+    fullName: String,
     email: { type: String, required: true, unique: true },
-    mobile: String,
-    userType: { type: String, default: 'user', enum: ["admin", "user"] },
+    userType: { type: String, default: 'member', enum: ['Admin', 'Member', 'Limited', 'Guest'] },
     password: { type: String, required: true },
-    allowNotification: Boolean,
-    gender: { type: String, enum: ["Male", "Female"] },
-    address: {
-        street: String,
-        city: String,
-        state: String,
-        pincode: String,
-    },
-    cart: { type: String, ref: 'cart', default: null }
-});
+    companyName: { type: String },
+    orgId: { type: String, ref: 'organizations', default: null },
+}, { timestamps: true });
 
 userSchema.pre("save", function save(next) {
     const user = this as UserDocument;
@@ -73,4 +57,4 @@ userSchema.pre("save", function save(next) {
     });
 });
 userSchema.methods.comparePassword = comparePassword;
-export const User = mongoose.model<UserDocument>("User", userSchema);
+export const User = mongoose.model<UserDocument>("users", userSchema);

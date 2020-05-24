@@ -1,5 +1,5 @@
-export const errorObj = {error: true, type: "error", success: false};
-export const successObj = {error: false, type: "success", success: true};
+export const errorObj = { error: true, type: "error", success: false };
+export const successObj = { error: false, type: "success", success: true };
 export const secret = process.env.SECRET_KEY || "asdfasdfasdfasdf";
 
 export interface ErrorObj {
@@ -26,3 +26,5 @@ export interface ApiResp {
     message: string;
     err?: object;
 }
+
+export interface BodyData { [key: string]: string; }
