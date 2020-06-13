@@ -1,8 +1,8 @@
 import { createLogger, format, LoggerOptions, transports } from "winston";
-const Logger = createLogger();
 const options: LoggerOptions = {
     level: 'silly',
     format: format.combine(
+        format.colorize(),
         format.prettyPrint(),
         format.json()
     ),
@@ -14,7 +14,7 @@ const options: LoggerOptions = {
     ]
 };
 
-const logger = new Logger(options);
+const logger = createLogger(options);
 
 if (process.env.NODE_ENV !== "production") {
     logger.debug("Logging initialized at debug level");

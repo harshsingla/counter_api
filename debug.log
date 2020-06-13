@@ -1,0 +1,35 @@
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"(node:17296) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"error"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"(node:17244) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"error"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"(node:15644) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"error"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"(node:9704) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"error"}
+{"message":"MongoDB connection error. Please make sure MongoDB is running. TypeError: Cannot create property 'Symbol(level)' on string 'mongo'","level":"warn"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"(node:18948) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"error"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"(node:1980) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"error"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"(node:4984) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"error"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"level":"info","message":"1234"}
+{"level":"info","message":"App is running at http://localhost:%d in %s mode"}
+{"message":"  Press CTRL-C to stop\n","level":"info"}
+{"message":"(node:17488) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"error"}
+{"message":"MongoDB Connected","level":"info"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"level":"\u001b[32minfo\u001b[39m","message":"1234"}
+{"level":"\u001b[32minfo\u001b[39m","message":"App is running at http://localhost:%d in %s mode"}
+{"message":"  Press CTRL-C to stop\n","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:7988) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"MongoDB Connected","level":"\u001b[32minfo\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"level":"\u001b[32minfo\u001b[39m","message":"1234"}
+{"level":"\u001b[32minfo\u001b[39m","message":"App is running at http://localhost:%d in %s mode"}
+{"message":"  Press CTRL-C to stop\n","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:18472) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"MongoDB Connected","level":"\u001b[32minfo\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"(node:1668) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
