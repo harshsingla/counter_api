@@ -11,6 +11,8 @@ import YAML from "yamljs";
 import swaggerUi from "swagger-ui-express";
 import mongoose from "mongoose";
 import logger from "./utils/logger";
+import morgan from "morgan";
+import passport from './utils/passport';
 // Controllers (route handlers)
 // import {config} from './config/settings'
 // console.log = (...args: any[]) => logger.info.call(logger, ...args);
@@ -22,16 +24,21 @@ console.debug = (...args: any[]) => logger.debug.call(logger, ...args);
 const app = express();
 const swaggerDocument = YAML.load("./swagger.yaml");
 
-/* const rejectFolders = [
+const rejectFolders = [
     "css",
     "bower_components",
     "js",
     "img",
     "fonts",
     "images"
-]; */
+];
 
 // removing static resources from the logger
+app.use(
+    morgan(":method :url :status :res[content-length] - :response-time ms", {
+        skip: req => rejectFolders.indexOf(req.url.split("/")[1]) !== -1
+    })
+);
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
     console.log('MongoDB Connected')
 }).catch(err => {
@@ -41,7 +48,9 @@ mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(cors());
+app.use(cors({
+    preflightContinue: true
+}));
 app.set("port", process.env.PORT);
 app.set("ws_port", process.env.WS_PORT);
 
@@ -55,8 +64,9 @@ app.use(
 app.use(
     express.static(path.join(__dirname, "../public"), { maxAge: 31557600000 })
 );
-
-// mongoose.set('debug', true)
+app.use(passport.initialize())
+app.use(passport.session())
+mongoose.set('debug', true)
 
 app.get('/', checkToken);
 userRoutes(app)

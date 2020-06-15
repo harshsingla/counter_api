@@ -33,3 +33,101 @@
 {"message":"MongoDB Connected","level":"\u001b[32minfo\u001b[39m"}
 {"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
 {"message":"(node:1668) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"(node:6720) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"(node:19268) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"(node:12428) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"(node:18160) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"(node:9816) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"(node:16860) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"(node:15312) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"(node:12532) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"(node:5972) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"(node:18296) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"(node:18788) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"(node:5020) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"(node:12592) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"(node:8168) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"(node:18780) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"(node:15436) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:11812) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:15300) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:15740) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:7824) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:8276) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:11268) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:8556) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:13240) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:11468) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:12328) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:9116) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:9336) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:7324) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Error: Unknown authentication strategy \"oauth2\"\n    at attempt (D:\\MyProjects\\Web\\taskManagment\\rest-api\\build\\bundle.js:3641:39)\n    at authenticate (D:\\MyProjects\\Web\\taskManagment\\rest-api\\build\\bundle.js:3818:7)\n    at Layer.handle [as handle_request] (D:\\MyProjects\\Web\\taskManagment\\rest-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\MyProjects\\Web\\taskManagment\\rest-api\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\MyProjects\\Web\\taskManagment\\rest-api\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (D:\\MyProjects\\Web\\taskManagment\\rest-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\MyProjects\\Web\\taskManagment\\rest-api\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (D:\\MyProjects\\Web\\taskManagment\\rest-api\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (D:\\MyProjects\\Web\\taskManagment\\rest-api\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at SessionStrategy.strategy.pass (D:\\MyProjects\\Web\\taskManagment\\rest-api\\build\\bundle.js:3794:9)\n    at SessionStrategy../node_modules/passport/lib/strategies/session.js.SessionStrategy.authenticate (D:\\MyProjects\\Web\\taskManagment\\rest-api\\build\\bundle.js:4021:10)\n    at attempt (D:\\MyProjects\\Web\\taskManagment\\rest-api\\build\\bundle.js:3817:16)\n    at authenticate (D:\\MyProjects\\Web\\taskManagment\\rest-api\\build\\bundle.js:3818:7)\n    at Layer.handle [as handle_request] (D:\\MyProjects\\Web\\taskManagment\\rest-api\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\MyProjects\\Web\\taskManagment\\rest-api\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at D:\\MyProjects\\Web\\taskManagment\\rest-api\\node_modules\\express\\lib\\router\\index.js:284:7","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:6508) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:13712) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:3332) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:15880) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:13048) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:6268) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:10552) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"level":"\u001b[32minfo\u001b[39m","message":{"id":"108221007258885478485","displayName":"Abhishek Sharma","name":{"familyName":"Sharma","givenName":"Abhishek"},"emails":[{"value":"abhishekop722@gmail.com","verified":true}],"photos":[{"value":"https://lh3.googleusercontent.com/a-/AOh14GjJ90gtkxKbcs3ZNCHyMQA56xZoodFI2aLL-cfsnQ"}],"provider":"google","_raw":"{\n  \"sub\": \"108221007258885478485\",\n  \"name\": \"Abhishek Sharma\",\n  \"given_name\": \"Abhishek\",\n  \"family_name\": \"Sharma\",\n  \"picture\": \"https://lh3.googleusercontent.com/a-/AOh14GjJ90gtkxKbcs3ZNCHyMQA56xZoodFI2aLL-cfsnQ\",\n  \"email\": \"abhishekop722@gmail.com\",\n  \"email_verified\": true,\n  \"locale\": \"en\"\n}","_json":{"sub":"108221007258885478485","name":"Abhishek Sharma","given_name":"Abhishek","family_name":"Sharma","picture":"https://lh3.googleusercontent.com/a-/AOh14GjJ90gtkxKbcs3ZNCHyMQA56xZoodFI2aLL-cfsnQ","email":"abhishekop722@gmail.com","email_verified":true,"locale":"en"}}}
+{"level":"\u001b[32minfo\u001b[39m","message":{"id":"108221007258885478485","displayName":"Abhishek Sharma","name":{"familyName":"Sharma","givenName":"Abhishek"},"emails":[{"value":"abhishekop722@gmail.com","verified":true}],"photos":[{"value":"https://lh3.googleusercontent.com/a-/AOh14GjJ90gtkxKbcs3ZNCHyMQA56xZoodFI2aLL-cfsnQ"}],"provider":"google","_raw":"{\n  \"sub\": \"108221007258885478485\",\n  \"name\": \"Abhishek Sharma\",\n  \"given_name\": \"Abhishek\",\n  \"family_name\": \"Sharma\",\n  \"picture\": \"https://lh3.googleusercontent.com/a-/AOh14GjJ90gtkxKbcs3ZNCHyMQA56xZoodFI2aLL-cfsnQ\",\n  \"email\": \"abhishekop722@gmail.com\",\n  \"email_verified\": true,\n  \"locale\": \"en\"\n}","_json":{"sub":"108221007258885478485","name":"Abhishek Sharma","given_name":"Abhishek","family_name":"Sharma","picture":"https://lh3.googleusercontent.com/a-/AOh14GjJ90gtkxKbcs3ZNCHyMQA56xZoodFI2aLL-cfsnQ","email":"abhishekop722@gmail.com","email_verified":true,"locale":"en"}}}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:11716) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}

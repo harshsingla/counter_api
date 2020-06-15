@@ -32,10 +32,10 @@ export type UserDocument = mongoose.Document & {
 const userSchema = new mongoose.Schema({
     fullName: String,
     email: { type: String, required: true, unique: true },
-    userType: { type: String, default: 'member', enum: ['Admin', 'Member', 'Limited', 'Guest'] },
+    userType: { type: String, default: 'Admin', enum: ['Admin', 'Member', 'Limited', 'Guest'] },
     password: { type: String, required: true },
     companyName: { type: String },
-    orgId: { type: String, ref: 'organizations', default: null },
+    orgId: { type: String, ref: 'organizations' },
 }, { timestamps: true });
 
 userSchema.pre("save", function save(next) {
@@ -52,9 +52,17 @@ userSchema.pre("save", function save(next) {
                 return next(err);
             }
             user.password = hash;
-            next();
+            return next();
         });
     });
+});
+userSchema.post("save", function save(doc: UserDocument, next) {
+    doc.password = '*****'
+    return next()
+});
+userSchema.post("update", function save(doc: UserDocument, next) {
+    doc.password = '*****'
+    return next()
 });
 userSchema.methods.comparePassword = comparePassword;
 export const User = mongoose.model<UserDocument>("users", userSchema);

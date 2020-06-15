@@ -44,6 +44,7 @@ let userCtrl = {
                 if (err || !doc) {
                     return resolve({ ...errorObj, message: "user not found" });
                 }
+                delete doc.password
                 return resolve({ ...successObj, message: "user fetched successfully", data: doc });
             })
         });
