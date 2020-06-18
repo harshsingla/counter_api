@@ -6,7 +6,6 @@ module.exports = {
     entry: path.join(__dirname, '/src/index.ts'),
     target: 'node',
     devtool: 'source-map',
-    watch: true,
     module: {
         rules: [
             {
