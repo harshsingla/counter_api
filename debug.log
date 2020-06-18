@@ -131,3 +131,13 @@
 {"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
 {"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
 {"message":"(node:11716) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:12428) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:15216) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"Logging initialized at debug level","level":"\u001b[34mdebug\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.ensureIndex({ email: \u001b[33m1\u001b[39m }, { unique: \u001b[33mtrue\u001b[39m, background: \u001b[33mtrue\u001b[39m })","level":"\u001b[32minfo\u001b[39m"}
+{"message":"(node:13736) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.","level":"\u001b[31merror\u001b[39m"}
+{"message":"\u001b[0;36mMongoose:\u001b[0m users.insertOne({ userType: \u001b[32m'Admin'\u001b[39m, _id: ObjectId(\"5ee89ff2a7733935a83fcba7\"), email: \u001b[32m'abhishekop722@gmail.com'\u001b[39m, fullName: \u001b[32m'Abhishek Sharma'\u001b[39m, password: \u001b[32m'$2a$10$sVfR3tUyMQQWW/a9gF4x.uBM9LCOLuUJprqWmeak15l2rtDw/XuzC'\u001b[39m, createdAt: new Date(\"Tue, 16 Jun 2020 10:33:23 GMT\"), updatedAt: new Date(\"Tue, 16 Jun 2020 10:33:23 GMT\"), __v: \u001b[33m0\u001b[39m}, { session: \u001b[1mnull\u001b[22m })","level":"\u001b[32minfo\u001b[39m"}
