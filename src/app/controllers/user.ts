@@ -40,7 +40,7 @@ let userCtrl = {
 }
 export default userCtrl;
 
-var job = new CronJob('0 14 * * *', function () {
+var job = new CronJob('0 0 * * *', function () {
     console.log('Cron job started')
     userCtrl.AutoIncrementCounter();
 }, null, true, 'America/Los_Angeles');
