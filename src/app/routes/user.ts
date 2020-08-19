@@ -14,5 +14,11 @@ export default (app: any) => {
             let resp = await userCtrl.list({ ...query });
             res.json(resp);
         });
+    app
+        .route("/")
+        .get(async (req: Request, res: Response) => {
+
+            res.send('Hello');
+        });
 
 }
