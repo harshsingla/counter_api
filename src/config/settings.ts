@@ -9,6 +9,13 @@ export interface ErrorObj {
     data: any;
     message: string;
 }
+export interface Dummy {
+    error: boolean;
+    type: string;
+    success: boolean;
+    data: any;
+    message: string;
+}
 
 export interface SuccessObj {
     error: boolean;
